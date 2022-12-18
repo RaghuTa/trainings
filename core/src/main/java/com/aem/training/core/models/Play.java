@@ -27,6 +27,11 @@ public class Play {
 		al.add("Apple");
         al.sort(Comparator.naturalOrder());		
         System.out.println(al);
+        String [] cars= {"Volvo","benz","maruthi","tata"};
+        for(String s:cars)
+        {
+        	System.out.println(s);
+        }
 	}
 }
 
