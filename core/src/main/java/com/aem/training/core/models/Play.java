@@ -1,5 +1,9 @@
 package com.aem.training.core.models;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+
 public class Play {
 	void display()
 	{
@@ -17,6 +21,12 @@ public class Play {
 		Play t=new Play();
 		t.display();
 		t.add(45, 54);
+		ArrayList al=new ArrayList();
+		al.add("Raghu");
+		al.add("Talluri");
+		al.add("Apple");
+        al.sort(Comparator.naturalOrder());		
+        System.out.println(al);
 	}
 }
 
